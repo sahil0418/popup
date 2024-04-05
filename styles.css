@@ -36,7 +36,12 @@
     cursor: pointer;
     font-size: 16px;
   }
-  
+  body {
+  background-image: url('background.jpg'); /* Replace 'background.jpg' with the filename of your image */
+  background-size: cover;
+  background-position: center;
+  }
+   
   button:hover {
     background-color: #45a049;
   }
